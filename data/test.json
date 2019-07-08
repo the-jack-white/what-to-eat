@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "logo": "https://miro.medium.com/max/2000/1*6JDbWUZmpWT_reZbXAaj4g.png",
+        "name": "McDonalds",
+        "sit-down": false
+    },
+    {
+        "id": 2,
+        "logo": "http://media1.s-nbcnews.com/j/msnbc/Components/Photos/061113/061113_kfc_logo_vmed5p.grid-4x2.jpg",
+        "name": "KFC",
+        "sit-down": false
+    }
+]
