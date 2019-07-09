@@ -1,5 +1,11 @@
 [
     {
+        "id": 0,
+        "logo": "http://mochachos.com/files/logo.png",
+        "name": "Mochachos",
+        "sit-down": false
+    },
+    {
         "id": 1,
         "logo": "https://miro.medium.com/max/2000/1*6JDbWUZmpWT_reZbXAaj4g.png",
         "name": "McDonalds",
@@ -124,11 +130,5 @@
         "logo": "https://cdn.newsapi.com.au/image/v1/8c816ffd13a6d9930a90fc2204d09944?width=1024",
         "name": "2 Min Noodles",
         "sit-down": true
-    },
-    {
-        "id": 22,
-        "logo": "http://mochachos.com/files/logo.png",
-        "name": "Mochachos",
-        "sit-down": false
     }
 ]
