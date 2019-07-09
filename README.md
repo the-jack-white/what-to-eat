@@ -1,2 +1,2 @@
-# what-to-eat
-A simple web-app that picks a restaurant for you
+# What To Eat
+A simple web-app that picks a restaurant for you.
