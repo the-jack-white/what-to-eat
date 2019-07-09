@@ -3,132 +3,132 @@
         "id": 0,
         "logo": "http://mochachos.com/files/logo.png",
         "name": "Mochachos",
-        "sit-down": false
+        "sitDown": false
     },
     {
         "id": 1,
         "logo": "https://miro.medium.com/max/2000/1*6JDbWUZmpWT_reZbXAaj4g.png",
         "name": "McDonalds",
-        "sit-down": false
+        "sitDown": false
     },
     {
         "id": 2,
         "logo": "http://media1.s-nbcnews.com/j/msnbc/Components/Photos/061113/061113_kfc_logo_vmed5p.grid-4x2.jpg",
         "name": "KFC",
-        "sit-down": false
+        "sitDown": false
     },
     {
         "id": 3,
         "logo": "https://famousbrands.co.za/wp-content/uploads/2017/02/steers-1.png",
         "name": "Steers",
-        "sit-down": false
+        "sitDown": false
     },
     {
         "id": 4,
         "logo": "https://canalwalk.co.za/storage/app/uploads/public/5b1/15e/be1/thumb_1433_0_0_0_0_auto.png",
         "name": "Simply Asia",
-        "sit-down": false
+        "sitDown": false
     },
     {
         "id": 5,
         "logo": "https://i.pinimg.com/originals/d4/cf/d3/d4cfd33e3c3382ae0f39bc862804bb8e.jpg",
         "name": "Romans Pizza",
-        "sit-down": false
+        "sitDown": false
     },
     {
         "id": 6,
         "logo": "https://famousbrands.co.za/wp-content/uploads/2017/02/debonairs.png",
         "name": "Debonairs Pizza",
-        "sit-down": false
+        "sitDown": false
     },
     {
         "id": 7,
         "logo": "https://corporate.dominos.co.uk/Media/Default/Image%20Library/Image%20library%20-%20logos/RGB_Blue_Type_Vert-1.jpg",
         "name": "Dominos Pizza",
-        "sit-down": false
+        "sitDown": false
     },
     {
         "id": 8,
         "logo": "http://www.ginos.co.za/images/Gino.png",
         "name": "Ginos",
-        "sit-down": false
+        "sitDown": false
     },
     {
         "id": 9,
         "logo": "https://www.rocomamas.com/media/151623/img-logo-rocomamas-1.png",
         "name": "RocoMamas",
-        "sit-down": true
+        "sitDown": true
     },
     {
         "id": 10,
         "logo": "https://bossa.co.za/wp-content/uploads/2019/04/logo-black-800px.png",
         "name": "Bossa",
-        "sit-down": true
+        "sitDown": true
     },
     {
         "id": 11,
         "logo": "http://www.safranchisebrands.co.za/wp-content/uploads/CC_fuel2.png",
         "name": "Col Cachio",
-        "sit-down": true
+        "sitDown": true
     },
     {
         "id": 12,
         "logo": "https://nurisushi.ordering.co/templates/web/img/custom/white_logo.png",
         "name": "Nuri",
-        "sit-down": true
+        "sitDown": true
     },
     {
         "id": 13,
         "logo": "http://www.robbies.co.za/wp-content/uploads/2014/10/logo-ocean-basket.jpg",
         "name": "Ocean Basket",
-        "sit-down": true
+        "sitDown": true
     },
     {
         "id": 14,
         "logo": "https://b.zmtcdn.com/data/pictures/8/6402498/e1dbb725424dc81b402b4d5eddba55fb_featured_v2.jpg",
         "name": "Chinese Fu Long",
-        "sit-down": false
+        "sitDown": false
     },
     {
         "id": 15,
         "logo": "https://famousbrands.co.za/wp-content/uploads/2017/02/fishaways.png",
         "name": "Fish-aways",
-        "sit-down": false
+        "sitDown": false
     },
     {
         "id": 16,
         "logo": "https://media-cdn.tripadvisor.com/media/photo-s/0b/1a/0d/b5/001-largejpg.jpg",
         "name": "Cubana Lounge",
-        "sit-down": true
+        "sitDown": true
     },
     {
         "id": 17,
         "logo": "https://hussargrill.co.za/media/1173/img-logo-mobi.jpg",
         "name": "The Hussar Grill",
-        "sit-down": true
+        "sitDown": true
     },
     {
         "id": 18,
         "logo": "https://www.wininganddining.co.za/gallery/3964-14569-gallery.jpg",
         "name": "Genki Sushi",
-        "sit-down": true
+        "sitDown": true
     },
     {
         "id": 19,
-        "logo": "https://tigersmilk.co.za/wp-content/uploads/2018/03/TM_logo.png",
+        "logo": "https://media-cdn.tripadvisor.com/media/photo-p/14/9d/7b/45/tiger-s-milk.jpg",
         "name": "Tiger's Milk",
-        "sit-down": true
+        "sitDown": true
     },
     {
         "id": 20,
-        "logo": "https://m.spur.co.za/media/781371/spur-logos-head-only-white.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/3/39/Spur_Steak_Ranch_logo.png",
         "name": "Spur Steak Ranches",
-        "sit-down": true
+        "sitDown": true
     },
     {
         "id": 21,
         "logo": "https://cdn.newsapi.com.au/image/v1/8c816ffd13a6d9930a90fc2204d09944?width=1024",
         "name": "2 Min Noodles",
-        "sit-down": true
+        "sitDown": true
     }
 ]

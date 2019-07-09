@@ -12,10 +12,10 @@ body {
 .main {
     background: #fff;
     margin: 2em 2em;
+    padding: 2em 0;
     display: flex;
     justify-content: center;
     border-radius: 8px;
-    /* align-items: center; */
 }
 
 header {
@@ -50,6 +50,25 @@ header h1, p, .main-button{
 
 .jumbotron {
     width: 50%;
+}
+.restaurant-name {
+    margin: 7px 0;
+}
+
+.sitdown-true::after {
+    content: "true";
+    background-color: rgb(34, 185, 34);
+    color: #fff;
+    padding: 1.5px 3px;
+    border-radius: 4px;
+}
+
+.sitdown-false::after {
+    content: "false";
+    background-color: rgb(196, 74, 74);
+    color: #fff;
+    padding: 1.5px 3px;
+    border-radius: 4px;
 }
 
 .img {
