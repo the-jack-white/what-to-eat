@@ -76,7 +76,7 @@ function pickForMe(data) {
     restaurantDescription.appendChild(h3);
 
     // Set <span> element and append to parent(restaurantDescription)
-    span.textContent = 'Sit Down?';
+    span.textContent = 'Can you sit down?';
     restaurantDescription.appendChild(span);
 
     // Sit down logic
@@ -89,7 +89,7 @@ function pickForMe(data) {
     // Add the corresponding image
     img.setAttribute("src", randomRestaurant.logo);
     img.setAttribute("alt", randomRestaurant.name);
-    img.setAttribute("width", 480);
+    img.setAttribute("width", 360);
     imgParent.appendChild(img);
 }
 
