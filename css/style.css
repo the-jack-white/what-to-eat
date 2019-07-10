@@ -71,6 +71,22 @@ header h1, p, .main-button{
 .jumbotron {
     width: 50%;
 }
+
+.restaurant-description ul {
+    list-style: none;
+}
+
+.restaurant-description ul li {
+    margin: 4px 20px;
+    padding: 5px 20px;
+    border: 1px solid #111111;
+    border-radius: 4px;
+}
+
+.restaurant-description ul li:nth-child(odd) {
+    background-color: #cccccc;
+}
+
 .restaurant-name {
     margin: 7px 0;
 }
