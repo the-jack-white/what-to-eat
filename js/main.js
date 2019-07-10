@@ -1,3 +1,4 @@
+//----------------------------------Variables-----------------------------------------
 const allButton = document.querySelector('.all-button');
 const pickButton = document.querySelector('.pick-button');
 const restaurantDescription = document.querySelectorAll('.restaurant-description')[0]; 
@@ -12,10 +13,11 @@ const h3 = document.createElement('h3');
 const span = document.createElement('span');
 const img = document.createElement('img');
 
+//-----------------------State flag to display the list-------------------------------
 let showList = false;
 
 
-// Async function to get the data from the JSON file
+//-------------Async function to get the data from the JSON file----------------------
 async function getData() {
     const response = await fetch('../data/restaurants.json');
     const data = await response.json();
@@ -35,8 +37,7 @@ async function getData() {
             showList = false;
             allButton.textContent = "SHOW ALL RESTAURANTS";
             toggleListOff();
-        }
-        
+        } 
     });
 
     // Call the random generator if the 'PICK RESTAURANT FOR ME' button is clicked
@@ -45,7 +46,7 @@ async function getData() {
     });
 }
 
-// List all the restaurant names in the JSON
+//--------------------List all the restaurant names in the JSON----------------------
 function listAll(data) {
     for (let i = 0; i < data.length; i ++) {
         // create <li> element inside loop so a new list item is created for each data item
@@ -54,7 +55,7 @@ function listAll(data) {
         ul.appendChild(li);
     }
 }
-
+//----------------------------List toggle functions-----------------------------------
 function toggleListOn() {
     ul.style.display = 'block';
 }
@@ -63,7 +64,7 @@ function toggleListOff() {
     ul.style.display = 'none';
 }
 
-// Generate a random number and pick the corresponding JSON index
+//----------Generate a random number and pick the corresponding JSON index------------
 function pickForMe(data) {
     const random = Math.floor(Math.random() * Math.floor(data.length));
     const randomRestaurant = data[random];
@@ -93,5 +94,5 @@ function pickForMe(data) {
 }
 
 
-// Call Async funtion
+//-------------------------------Call Async funtion-----------------------------------
 getData();
