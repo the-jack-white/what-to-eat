@@ -4,6 +4,8 @@ const restaurantDescription = document.querySelectorAll('.restaurant-description
 const restaurantName = document.querySelector('.restaurant-name');
 const imgParent = document.querySelectorAll('.img')[0];
 
+
+
 // Create elements for pickForMe() 
 const h3 = document.createElement('h3');
 const span = document.createElement('span');
@@ -30,7 +32,17 @@ async function getData() {
 
 // List all the restaurant names in the JSON
 function listAll(data) {
+    // Create parent element
+    const ul = document.createElement('ul');
+    
+    restaurantDescription.appendChild(ul);
 
+    for (let i = 0; i < data.length; i ++) {
+        // create <li> element inside loop so a new list item is created for each data item
+        let li = document.createElement('li');
+        li.textContent = data[i].name;
+        ul.appendChild(li);
+    }
 }
 
 // Generate a random number and pick the corresponding JSON index
